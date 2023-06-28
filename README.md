@@ -1,2 +1,2 @@
 # bimaster
-Trabalho final de curso da pós BI-Master
+Trabalho final de curso da pós BI-Master PUC-Rio
