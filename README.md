@@ -6,12 +6,12 @@
 
 Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como pré-requisito para conclusão de curso.
 
-- [Link para o código](https://github.com/janevolotao/bimaster/LSTM1.ipynb).
-- [Link para o código](https://github.com/janevolotao/bimaster/LSTM2.ipynb).
-- [Link para o código](https://github.com/janevolotao/bimaster/LSTM3.ipynb). 
-- [Link para o código](https://github.com/janevolotao/bimaster/LSTM4.ipynb). 
-- [Link para o código](https://github.com/janevolotao/bimaster/LSTM5.ipynb). 
-- [Link para o código](https://github.com/janevolotao/bimaster/LSTM6.ipynb).
+- [Link para o código - LSTM1](https://github.com/janevolotao/bimaster/LSTM1.ipynb).
+- [Link para o código - LSTM2](https://github.com/janevolotao/bimaster/LSTM2.ipynb).
+- [Link para o código - LSTM3](https://github.com/janevolotao/bimaster/LSTM3.ipynb). 
+- [Link para o código - LSTM4](https://github.com/janevolotao/bimaster/LSTM4.ipynb). 
+- [Link para o código - LSTM5](https://github.com/janevolotao/bimaster/LSTM5.ipynb). 
+- [Link para o código - LSTM6](https://github.com/janevolotao/bimaster/LSTM6.ipynb).
 ---
 
 ### Resumo
@@ -58,13 +58,13 @@ R2 ajustado foi desenvolvido buscando resolver um problema recorrente no uso do 
 
 A análise paramétrica das LSTM foi documentada em uma tabela no arquivo LSTM_PETR4.xlsx.
 
-Na primeira etapa conclui-se que os parâmetros de entrada ótimos entre os avaliados foi:.
+Na primeira etapa conclui-se que os parâmetros de entrada ótimos entre os avaliados foi:
 
-window: 15.
-batch: 64.
-epochs: 100.
+- window: 15.
+- batch: 64.
+- epochs: 100.
 
-Na segunda etapa concluiu-se que a arquitetura ótima da rede foi a seguinte:.
+Na segunda etapa concluiu-se que a arquitetura ótima da rede foi a seguinte:
 
 Número de neurônios na primeira camada: 75.
 Número de neurônios na segunda camada: 80.
@@ -75,15 +75,20 @@ Número de neurônios na terceira camada: 70.
 Este trabalho verificou a influência de parâmetros utilizados na construção de uma rede neural do tipo LSTM nos resultados obtidos quando aplicada a previsão de preço de ações.
 Variou-se todos os parâmetros de entrada e número de neurônios na arquitetura da rede para definir uma configuração ótima, que apresentasse valores mínimos de RMSE e MAPE.
 
-Estes valores foram os seguintes:.
-window = 15.
-epochs = 64.
-batch = 100.
-A arquitetura ótima definida foi a seguinte:.
-Número de neurônios na primeira camada: 75.
-Número de neurônios na segunda camada: 80.
-Número de neurônios na terceira camada: 70.
-Para esta configuração ótima os valores de RMSE e MAPE otibitos foram 1.096 e 3.105, respectivamente. adicionalmente, as demais métricas de avaliação obtidas nesta análise foram:.
+Estes valores foram os seguintes:
+- window = 15.
+- epochs = 64.
+- batch = 100.
+  
+A arquitetura ótima definida foi a seguinte:
+
+- Número de neurônios na primeira camada: 75.
+- Número de neurônios na segunda camada: 80.
+- Número de neurônios na terceira camada: 70.
+  
+Para esta configuração ótima os valores de RMSE e MAPE otibitos foram 1.096 e 3.105, respectivamente. 
+
+Adicionalmente, as demais métricas de avaliação obtidas nesta análise foram:
 - MSE: 1.201.
 - R2: 0.951.
 - R2 adj: 0.951.
