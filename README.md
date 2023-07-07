@@ -44,49 +44,49 @@ Foram variados parâmetros de entrada em intervalos de valores considerados fact
 ### 3. Resultados
 
 As métricas de avaliação clássicas de avaliação de redes neurais foram utilizadas para classificar o desempenho das diversas configurações testadas.
-São elas:
-- MSE:
+São elas:.
+- MSE:.
 Fornece o erro na dimensão da variável e mede a magnitude média do erro.
-- RMSE:
+- RMSE:.
 Trata da raiz do MSE. Como o mesmo, fornece uma grandeza de erro na dimensão da variável e consegue representar a magnitude média do erro.	
-- MAPE:	
+- MAPE:.	
 O MAPE tenta capturar a importância do erro relativo, fornecendo um valor percentual. Diferente do MSE e RMSE, esta métrica não guarda relação com o intervalo de variação dos dados de origem. Por ser um valor percentual torna mais prática sua avaliação como qualidade do modelo proposto.
-- R2:
+- R2:.
 R2 representa a porcentagem de variação na resposta que é explicada pelo modelo. Quanto maior o valor de R2 melhor está o ajuste de seu modelo aos dados de origem.	
-- R2 adj:
+- R2 adj:.
 R2 ajustado foi desenvolvido buscando resolver um problema recorrente no uso do R2. Este problema surge quando adicionamos variáveis independentes ao problema. Independentemente do grau de causualidade na nova variável independente em relação ao meu modelo, R2 sempre aumenta quando acrescentamos novas variáveis. Com a equação de R2 ajustado, este problema se resolve. Como R2, representa a porcentagem de variação na resposta que é explicada pelo modelo. Quanto maior o valor de R2 ajustado melhor está o ajuste de seu modelo aos dados de origem.
 
 A análise paramétrica das LSTM foi documentada em uma tabela no arquivo LSTM_PETR4.xlsx.
 
-Na primeira etapa conclui-se que os parâmetros de entrada ótimos entre os avaliados foi:
+Na primeira etapa conclui-se que os parâmetros de entrada ótimos entre os avaliados foi:.
 
-window: 15
-batch: 64
-epochs: 100
+window: 15.
+batch: 64.
+epochs: 100.
 
-Na segunda etapa concluiu-se que a arquitetura ótima da rede foi a seguinte:
+Na segunda etapa concluiu-se que a arquitetura ótima da rede foi a seguinte:.
 
-Número de neurônios na primeira camada: 75
-Número de neurônios na segunda camada: 80
-Número de neurônios na terceira camada: 70
+Número de neurônios na primeira camada: 75.
+Número de neurônios na segunda camada: 80.
+Número de neurônios na terceira camada: 70.
 
 ### 4. Conclusões
 
 Este trabalho verificou a influência de parâmetros utilizados na construção de uma rede neural do tipo LSTM nos resultados obtidos quando aplicada a previsão de preço de ações.
 Variou-se todos os parâmetros de entrada e número de neurônios na arquitetura da rede para definir uma configuração ótima, que apresentasse valores mínimos de RMSE e MAPE.
 
-Estes valores foram os seguintes:
-window = 15
-epochs = 64
-batch = 100
-A arquitetura ótima definida foi a seguinte:
-Número de neurônios na primeira camada: 75
-Número de neurônios na segunda camada: 80
-Número de neurônios na terceira camada: 70
-Para esta configuração ótima os valores de RMSE e MAPE otibitos foram 1.096 e 3.105, respectivamente. adicionalmente, as demais métricas de avaliação obtidas nesta análise foram:
-- MSE: 1.201
-- R2: 0.951
-- R2 adj: 0.951
+Estes valores foram os seguintes:.
+window = 15.
+epochs = 64.
+batch = 100.
+A arquitetura ótima definida foi a seguinte:.
+Número de neurônios na primeira camada: 75.
+Número de neurônios na segunda camada: 80.
+Número de neurônios na terceira camada: 70.
+Para esta configuração ótima os valores de RMSE e MAPE otibitos foram 1.096 e 3.105, respectivamente. adicionalmente, as demais métricas de avaliação obtidas nesta análise foram:.
+- MSE: 1.201.
+- R2: 0.951.
+- R2 adj: 0.951.
 Cabe ressaltar ainda que também foi elaborado um estudo com redes neurais do tipo GRU, mas os resultados foram bastante insatisfatórios quando comparados aos da LSTM.
 
 ---
