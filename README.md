@@ -92,7 +92,8 @@ Adicionalmente, as demais métricas de avaliação obtidas nesta análise foram:
 - MSE: 1.201.
 - R2: 0.951.
 - R2 adj: 0.951.
-Cabe ressaltar ainda que também foi elaborado um estudo com redes neurais do tipo GRU, mas os resultados foram bastante insatisfatórios quando comparados aos da LSTM.
+- 
+Cabe ressaltar ainda que também foi elaborado um estudo com redes neurais do tipo GRU, mas os resultados foram bastante insatisfatórios quando comparados aos obtidos pelo uso de LSTM.
 
 ---
 
