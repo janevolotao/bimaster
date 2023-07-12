@@ -88,7 +88,7 @@ A arquitetura ótima definida foi a seguinte:
 - Número de neurônios na segunda camada: 80
 - Número de neurônios na terceira camada: 70
   
-Para esta configuração ótima os valores de RMSE e MAPE obitidos foram 1.096 e 3.105, respectivamente. adicionalmente, as demais métricas de avaliação obtidas nesta análise foram:
+Para esta configuração ótima os valores de RMSE e MAPE obitidos foram 1.096 e 3.105, respectivamente. Adicionalmente, as demais métricas de avaliação obtidas nesta análise foram:
 - MSE: 1.201
 - R2: 0.951
 - R2 adj: 0.951
