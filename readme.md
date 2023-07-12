@@ -60,33 +60,39 @@ A análise paramétrica das LSTM foi documentada em uma tabela no arquivo LSTM_P
 
 Na primeira etapa conclui-se que os parâmetros de entrada ótimos entre os avaliados foi:
 
-window: 15
-batch: 64
-epochs: 100
+- window: 15
+- batch: 64
+- epochs: 100
 
 Na segunda etapa concluiu-se que a arquitetura ótima da rede foi a seguinte:
 
-Número de neurônios na primeira camada: 75
-Número de neurônios na segunda camada: 80
-Número de neurônios na terceira camada: 70
+- Número de neurônios na primeira camada: 75
+- Número de neurônios na segunda camada: 80
+- Número de neurônios na terceira camada: 70
 
 ### 4. Conclusões
 
 Este trabalho verificou a influência de parâmetros utilizados na construção de uma rede neural do tipo LSTM nos resultados obtidos quando aplicada a previsão de preço de ações.
+
 Variou-se todos os parâmetros de entrada e número de neurônios na arquitetura da rede para definir uma configuração ótima, que apresentasse valores mínimos de RMSE e MAPE.
 
 Estes valores foram os seguintes:
-window = 15
-epochs = 64
-batch = 100
+
+- window = 15
+- epochs = 64
+- batch = 100
+  
 A arquitetura ótima definida foi a seguinte:
-Número de neurônios na primeira camada: 75
-Número de neurônios na segunda camada: 80
-Número de neurônios na terceira camada: 70
-Para esta configuração ótima os valores de RMSE e MAPE otibitos foram 1.096 e 3.105, respectivamente. adicionalmente, as demais métricas de avaliação obtidas nesta análise foram:
+
+- Número de neurônios na primeira camada: 75
+- Número de neurônios na segunda camada: 80
+- Número de neurônios na terceira camada: 70
+  
+Para esta configuração ótima os valores de RMSE e MAPE obitidos foram 1.096 e 3.105, respectivamente. adicionalmente, as demais métricas de avaliação obtidas nesta análise foram:
 - MSE: 1.201
 - R2: 0.951
 - R2 adj: 0.951
+  
 Cabe ressaltar ainda que também foi elaborado um estudo com redes neurais do tipo GRU, mas os resultados foram bastante insatisfatórios quando comparados aos da LSTM.
 
 ---
@@ -96,45 +102,3 @@ Matrícula: 192.671.071
 Pontifícia Universidade Católica do Rio de Janeiro
 
 Curso de Pós Graduação *Business Intelligence Master*
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1 - Introdução
-
-
-2 - Modelagem
-
-
-3 - Resultados
-
-
-
-3 - Conclusão
-
-
-
-
-
